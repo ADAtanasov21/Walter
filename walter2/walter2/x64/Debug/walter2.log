@@ -1,0 +1,8 @@
+﻿walter2.obj : error LNK2019: unresolved external symbol InitWindow referenced in function main
+walter2.obj : error LNK2019: unresolved external symbol WindowShouldClose referenced in function main
+walter2.obj : error LNK2019: unresolved external symbol ClearBackground referenced in function main
+walter2.obj : error LNK2019: unresolved external symbol BeginDrawing referenced in function main
+walter2.obj : error LNK2019: unresolved external symbol EndDrawing referenced in function main
+walter2.obj : error LNK2019: unresolved external symbol DrawText referenced in function main
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\prj\walter2\raylib\lib\raylibdll.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\prj\walter2\x64\Debug\main.exe : fatal error LNK1120: 6 unresolved externals
