@@ -159,9 +159,7 @@
     <ClCompile Include="walter2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Logo.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="playMenu.h" />
     <ClInclude Include="menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
