@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="walter2.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -24,6 +24,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="playMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ebola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bacteriophager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sizes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,9 +1,13 @@
 #pragma once
 #include "raylib.h"
+#include "bacteriophager.h"
+#include "flu.h"
+#include "ebola.h"
+#include <vector>
+#include "sizes.h"
 
-const int screenWidth = 1000;
-const int screenHeight = 550;
-#define NUMBER_OF_PLAY_BUTTONS 3
+
+#define NUMBER_OF_PLAY_BUTTONS 6
 void someVirus() 
 {
     
@@ -42,58 +46,55 @@ void someVirus()
 }
 
 
-
 typedef enum {
     coronavirus,
-    hiv,
+    bacteriophager,
     esherichiaColi,
-    ebolaVirus,
+    ebola,
     adenovirus,
     flu
-}chooseTheVirus;
+};
 
 
 static const char* processText[] = {
     "Coronavirus",
-    "HIV",
+    "Bacteriophager",
     "Esherichia coli",
     "Ebola Virus",
     "Adenovirus",
     "Flu"
 };
 
-
-
-
 void playMenu()
 {
+    std::vector<Rectangle> rects;
+    
 
-    float recWidth = 220.0f;
-    float recHeight = 60.0f;
-
-    Rectangle toggleRecs[NUMBER_OF_PLAY_BUTTONS] = { 0 };
-    int mouseHoverRec = -1;
-
-    int currentProcess = 0;
-    bool textureReload = false;
-
-    for (int i = 0; i < NUMBER_OF_PLAY_BUTTONS; i++) {
-        toggleRecs[i] = Rectangle{ screenWidth / 2 +100, (float)(screenHeight / 2 + 100 * i - 100), recWidth, recHeight };
-
+    for (int i = 0; i < 6; i++) {
+        Rectangle rect;
+        rect.width = 220;
+        rect.height = 60;
+        rect.x = 160 + 280 * (i % 3);
+        rect.y = 230 + 260 * (i / 3);
+        rects.push_back(rect);
     }
 
-    InitWindow(screenWidth, screenHeight, "PLAY WINDOW");
+    int isColide = -1;
+    bool textureReload = false;
+    int currentProcess = 0;
+
+    
+    InitWindow(screenWidth, screenHeight, "Ivan");
 
     SetTargetFPS(60);
     
-    
     while (!WindowShouldClose())
     {
-        for (int i = 0; i < NUMBER_OF_PLAY_BUTTONS; i++)
+        for (int i = 0; i < rects.size(); i++)
         {
-            if (CheckCollisionPointRec(GetMousePosition(), toggleRecs[i]))
+            if (CheckCollisionPointRec(GetMousePosition(), rects[i]))
             {
-                mouseHoverRec = i;
+                isColide = i;
 
                 if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT))
                 {
@@ -103,42 +104,43 @@ void playMenu()
                 }
                 break;
             }
-            else mouseHoverRec = -1;
+            else isColide = -1;
         }
-        if (textureReload) {
+        if (textureReload)
+        {
             switch (currentProcess)
             {
             case coronavirus: someVirus();
                 break;
-            case hiv: someVirus();
+            case bacteriophager: bacteriophagerVirus();
                 break;
             case esherichiaColi: someVirus();
                 break;
-            case ebolaVirus: someVirus();
+            case ebola: ebolaVirus();
                 break;
             case adenovirus: someVirus();
                 break;
-            case flu: someVirus();
+            case flu: fluVirus();
                 break;
             }
         }
+            
 
         BeginDrawing();
 
         ClearBackground(Color{ 0,4,35 });
 
         
-
-        for (int i = 0; i < NUMBER_OF_PLAY_BUTTONS; i++)
-        {
-            DrawRectangleRec(toggleRecs[i], ((i == mouseHoverRec)) ? MAGENTA : VIOLET);
-            DrawRectangleLines((int)toggleRecs[i].x, (int)toggleRecs[i].y, (int)toggleRecs[i].width, (int)toggleRecs[i].height, PINK);
-            DrawText(processText[i], (int)(toggleRecs[i].x + toggleRecs[i].width / 2 - MeasureText(processText[i], 10) / 2) - 25, (int)toggleRecs[i].y + 16, 30, WHITE);
-
+        for (int i = 0; i < rects.size(); i++) {
+            DrawRectangleRec(rects[i], (isColide == i) ? BLUE : SKYBLUE);
+            DrawRectangleLines((int)rects[i].x, (int)rects[i].y, (int)rects[i].width, (int)rects[i].height, ((i == currentProcess) || (i == isColide)) ? BLUE : GRAY);
+            DrawText(processText[i], rects[i].x + (rects[i].width - MeasureText(processText[i], 20)) / 2, rects[i].y + (rects[i].height - 20) / 2, 20, WHITE);
         }
-        EndDrawing();
         
+        EndDrawing();
+    
     }
 
     CloseWindow();
+
 }
