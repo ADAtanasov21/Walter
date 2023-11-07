@@ -81,7 +81,7 @@ void menu(void)
         for (int i = 0; i < NUMBER_OF_MAIN_BUTTONS; i++)
         {
             DrawRectangleRec(toggleRecs[i], ((i == mouseHoverRec)) ? MAGENTA : VIOLET);
-            DrawRectangleLines(toggleRecs[i].x, toggleRecs[i].y, toggleRecs[i].width, toggleRecs[i].height, PINK);
+            DrawRectangleLines((int)toggleRecs[i].x, (int)toggleRecs[i].y, (int)toggleRecs[i].width, (int)toggleRecs[i].height, PINK);
             DrawText(processTextMainMenu[i], (int)(toggleRecs[i].x + toggleRecs[i].width / 2 - MeasureText(processTextMainMenu[i] , 10) / 2 ) -25, (int)(toggleRecs[i].y) + 16, 30, WHITE);
 
         }

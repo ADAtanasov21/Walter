@@ -74,8 +74,8 @@ void playMenu()
         Rectangle rect;
         rect.width = 220;
         rect.height = 60;
-        rect.x = 160 + 280 * (i % 3);
-        rect.y = 230 + 260 * (i / 3);
+        rect.x = (float)(235 + 280 * (i % 3));
+        rect.y = (float)(230 + 260 * (i / 3));
         rects.push_back(rect);
     }
 
@@ -133,7 +133,7 @@ void playMenu()
         
         for (int i = 0; i < rects.size(); i++) {
             DrawRectangleRec(rects[i], (isColide == i) ? BLUE : SKYBLUE);
-            DrawRectangleLines((int)rects[i].x, (int)rects[i].y, (int)rects[i].width, (int)rects[i].height, ((i == currentProcess) || (i == isColide)) ? BLUE : GRAY);
+            DrawRectangleLines((float)rects[i].x, (float)rects[i].y, (float)rects[i].width, (float)rects[i].height, ((i == currentProcess) || (i == isColide)) ? BLUE : GRAY);
             DrawText(processText[i], rects[i].x + (rects[i].width - MeasureText(processText[i], 20)) / 2, rects[i].y + (rects[i].height - 20) / 2, 20, WHITE);
         }
         
