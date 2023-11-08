@@ -1,5 +1,5 @@
 ﻿#include "raylib.h"
-#include "headers/menu.h"
+#include "menu.h"
 
 
 
@@ -13,6 +13,8 @@ int main(void)
     
     while (!WindowShouldClose())
     {
+        BeginDrawing();
+        ClearBackground(GRAY);
         menu();
         
         EndDrawing();

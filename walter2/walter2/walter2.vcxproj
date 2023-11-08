@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bacteriophager.h" />
+    <ClInclude Include="src\ebola.h" />
+    <ClInclude Include="src\flu.h" />
+    <ClInclude Include="src\menu.h" />
+    <ClInclude Include="src\playMenu.h" />
+    <ClInclude Include="src\sizes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -155,17 +166,6 @@
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);raylibdll.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="bacteriophager.h" />
-    <ClInclude Include="ebola.h" />
-    <ClInclude Include="flu.h" />
-    <ClInclude Include="playMenu.h" />
-    <ClInclude Include="menu.h" />
-    <ClInclude Include="sizes.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

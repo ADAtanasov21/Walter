@@ -82,7 +82,7 @@ void menu(void)
         {
             DrawRectangleRec(toggleRecs[i], ((i == mouseHoverRec)) ? MAGENTA : VIOLET);
             DrawRectangleLines((int)toggleRecs[i].x, (int)toggleRecs[i].y, (int)toggleRecs[i].width, (int)toggleRecs[i].height, PINK);
-            DrawText(processTextMainMenu[i], (int)(toggleRecs[i].x + toggleRecs[i].width / 2 - MeasureText(processTextMainMenu[i] , 10) / 2 ) -25, (int)(toggleRecs[i].y) + 16, 30, WHITE);
+            DrawText(processTextMainMenu[i], (float)(toggleRecs[i].x + toggleRecs[i].width / 2 - MeasureText(processTextMainMenu[i] , 10) / 2 ) -25, (int)(toggleRecs[i].y) + 16, 30, WHITE);
 
         }
         
