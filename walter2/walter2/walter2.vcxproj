@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\bacteriophager.h" />
+    <ClInclude Include="src\eColi.h" />
+    <ClInclude Include="src\coronavirus.h" />
     <ClInclude Include="src\ebola.h" />
     <ClInclude Include="src\flu.h" />
     <ClInclude Include="src\menu.h" />

@@ -13,14 +13,24 @@ void fluVirus()
     camera.up = Vector3{ 0.0f, 1.0f, 0.0f };
     camera.fovy = 45.0f;
     camera.projection = CAMERA_PERSPECTIVE;
-    char name[] = "Flu";
+
+    Model model = LoadModel("resources/models/fluFiles/flu.obj");
+    Texture2D texture = LoadTexture("resources/fluFiles/ebolaFiles/flu.mtl");
+    model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = texture;
+
+
+    Vector3 position = { 0.0f, 0.0f, 0.0f };
+
+
+
+    char name[] = "Ebola virus";
     char symptomps[] = "Symptoms:";
     char infoSymptomps[] = "Fever; Aches and pains, such as severe\nheadacheand muscleand joint pain;\nWeaknessand fatigue; Sore throat.";
     char cures[] = "Cures:";
     char infoCures[] = "There's no cure for Ebola, though\nresearchers are working on it. There\nare two drug treatments which have\nbeen approved for treating Ebola.\nInmazeb is a mixture of three\nmonoclonal antibodies (atoltivimab,\n maftivimab, and odesivimab-ebgn).";
     char dangers[] = "Dangers:";
     char infoDangers[] = "Without prompt and appropriate\ntreatment as many as 90% of people\nwho become sick with Ebola\nvirus disease die.";
-    Vector3 position = { 0.0f, 0.0f, 0.0f };
+
 
 
     Rectangle rect = { screenWidth - screenWidth / 4 - 150,0,screenWidth / 4 + 150, screenHeight };
@@ -29,12 +39,10 @@ void fluVirus()
     while (!WindowShouldClose())
     {
         UpdateCamera(&camera, CAMERA_ORBITAL);
-        ;
-
         BeginDrawing();
         ClearBackground(RAYWHITE);
         BeginMode3D(camera);
-        DrawCube(position, 2.0f, 2.0f, 2.0f, RED);
+        DrawModel(model, position, 1.0f, WHITE);
 
         DrawGrid(10, 1.0f);
         EndMode3D();
@@ -46,6 +54,11 @@ void fluVirus()
         DrawText(infoCures, rect.x + 30, rect.y + 330, 20, WHITE);
         DrawText(dangers, rect.x + 30, rect.y + 550, 35, WHITE);
         DrawText(infoDangers, rect.x + 30, rect.y + 600, 20, WHITE);
+
         EndDrawing();
     }
+
+    UnloadModel(model);
+    UnloadTexture(texture);
+    CloseWindow();
 }

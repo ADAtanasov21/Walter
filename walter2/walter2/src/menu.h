@@ -32,20 +32,21 @@ void menu(void)
     bool textureReload = false;
 
     for (int i = 0; i < NUMBER_OF_MAIN_BUTTONS; i++) {
-        toggleRecs[i] = Rectangle{ screenWidth/2 - recWidth / 2, (float)(screenHeight/2 + 100 * i - recHeight/2), recWidth, recHeight };
+        toggleRecs[i] = Rectangle{ screenWidth/2 - recWidth / 2, (float)(screenHeight/2 + 100 * i - recHeight/2) + 110, recWidth, recHeight };
         
     }
 
-    // Initialization
-    //--------------------------------------------------------------------------------------
-
+    
     InitWindow(screenWidth, screenHeight, "HOME");
 
-    SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
-    //--------------------------------------------------------------------------------------
+    Image image = LoadImage("resources/images/logo.png");
+    Texture2D texture = LoadTextureFromImage(image);
+    
+    UnloadImage(image);
 
-    // Main game loop
-    while (!WindowShouldClose())    // Detect window close button or ESC key
+    SetTargetFPS(60);
+
+    while (!WindowShouldClose())
     {
         for (int i = 0; i < NUMBER_OF_MAIN_BUTTONS; i++)
         {
@@ -76,21 +77,20 @@ void menu(void)
         BeginDrawing();
 
         ClearBackground(Color{0,4,35});
-
-
+        DrawTexture(texture, screenWidth/2 - texture.width/2+5, screenHeight/2 - texture.height/1.3,WHITE);
+        
         for (int i = 0; i < NUMBER_OF_MAIN_BUTTONS; i++)
         {
             DrawRectangleRec(toggleRecs[i], ((i == mouseHoverRec)) ? MAGENTA : VIOLET);
             DrawRectangleLines((int)toggleRecs[i].x, (int)toggleRecs[i].y, (int)toggleRecs[i].width, (int)toggleRecs[i].height, PINK);
             DrawText(processTextMainMenu[i], (float)(toggleRecs[i].x + toggleRecs[i].width / 2 - MeasureText(processTextMainMenu[i] , 10) / 2 ) -25, (int)(toggleRecs[i].y) + 16, 30, WHITE);
-
         }
         
 
         EndDrawing();
         
     }
-
+    UnloadTexture(texture);
     CloseWindow();
 
 }

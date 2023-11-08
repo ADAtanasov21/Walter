@@ -1,6 +1,7 @@
 #pragma once
 #include "raylib.h"
-#include "bacteriophager.h"
+#include "eColi.h"
+#include "coronavirus.h"
 #include "flu.h"
 #include "ebola.h"
 #include <vector>
@@ -47,21 +48,17 @@ void someVirus()
 
 
 typedef enum {
-    coronavirus,
-    bacteriophager,
-    esherichiaColi,
-    ebola,
-    adenovirus,
-    flu
+    CORONAVIRUS,
+    ESHERICHIACOLI,
+    EBOLA,
+    FLU
 };
 
 
 static const char* processText[] = {
     "Coronavirus",
-    "Bacteriophager",
     "Esherichia coli",
     "Ebola Virus",
-    "Adenovirus",
     "Flu"
 };
 
@@ -70,12 +67,12 @@ void playMenu()
     std::vector<Rectangle> rects;
     
 
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 4; i++) {
         Rectangle rect;
         rect.width = 220;
         rect.height = 60;
-        rect.x = (float)(235 + 280 * (i % 3));
-        rect.y = (float)(230 + 260 * (i / 3));
+        rect.x = (float)(235 + 280 * (i % 2));
+        rect.y = (float)(230 + 260 * (i / 2));
         rects.push_back(rect);
     }
 
@@ -110,17 +107,13 @@ void playMenu()
         {
             switch (currentProcess)
             {
-            case coronavirus: someVirus();
+            case CORONAVIRUS: coronavirus();
                 break;
-            case bacteriophager: bacteriophagerVirus();
+            case ESHERICHIACOLI: eColi();
                 break;
-            case esherichiaColi: someVirus();
+            case EBOLA: ebolaVirus();
                 break;
-            case ebola: ebolaVirus();
-                break;
-            case adenovirus: someVirus();
-                break;
-            case flu: fluVirus();
+            case FLU: fluVirus();
                 break;
             }
         }

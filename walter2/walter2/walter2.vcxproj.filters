@@ -21,7 +21,7 @@
     <ClInclude Include="src\sizes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\bacteriophager.h">
+    <ClInclude Include="src\eColi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\ebola.h">
@@ -34,6 +34,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\playMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coronavirus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
