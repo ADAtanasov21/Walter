@@ -2,7 +2,6 @@
 #include "raylib.h"
 #include "sizes.h"
 
-
 void coronavirus()
 {
     InitWindow(screenWidth, screenHeight, "Coronavirus");
@@ -15,13 +14,10 @@ void coronavirus()
     camera.projection = CAMERA_PERSPECTIVE;
 
     Model model = LoadModel("resources/models/coronavirusFiles/coronavirus.obj");
-    Texture2D texture = LoadTexture("resources/models/coronavirusFiles/coronavirus.mtl");
-    model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = texture;
-
+    //Texture2D texture = LoadTexture("resources/models/coronavirusFiles/coronavirus.mtl");
+    //model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = texture;
 
     Vector3 position = { 0.0f, 0.0f, 0.0f };
-
-
 
     char name[] = "Ebola virus";
     char symptomps[] = "Symptoms:";
@@ -31,22 +27,23 @@ void coronavirus()
     char dangers[] = "Dangers:";
     char infoDangers[] = "Without prompt and appropriate\ntreatment as many as 90% of people\nwho become sick with Ebola\nvirus disease die.";
 
-
-
     Rectangle rect = { screenWidth - screenWidth / 4 - 150,0,screenWidth / 4 + 150, screenHeight };
     SetTargetFPS(60);
 
     while (!WindowShouldClose())
     {
         UpdateCamera(&camera, CAMERA_ORBITAL);
+        
         BeginDrawing();
-        ClearBackground(RAYWHITE);
+        
+        ClearBackground(Color{ 0,4,35,255 });
+        
         BeginMode3D(camera);
-        DrawModel(model, position, 1.0f, WHITE);
-
-        DrawGrid(10, 1.0f);
+            DrawModel(model, position, 1.0f, WHITE);
+            DrawGrid(10, 1.0f);
         EndMode3D();
-        DrawRectangleRec(rect, BLACK);
+
+        DrawRectangleRec(rect, Color{ 27,222,210,255 });
         DrawText(name, rect.x + 30, rect.y + 50, 55, WHITE);
         DrawText(symptomps, rect.x + 30, rect.y + 130, 35, WHITE);
         DrawText(infoSymptomps, rect.x + 30, rect.y + 180, 20, WHITE);
@@ -59,6 +56,7 @@ void coronavirus()
     }
 
     UnloadModel(model);
-    UnloadTexture(texture);
+    //UnloadTexture(texture);
+
     CloseWindow();
 }

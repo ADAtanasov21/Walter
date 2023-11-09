@@ -4,24 +4,18 @@
 #include "sizes.h"
 #define NUMBER_OF_MAIN_BUTTONS   2
 
-
 typedef enum {
     PLAY,
     QUIT
 }exitOrPlay;
-
 
 static const char* processTextMainMenu[] = {
     "PLAY",
     "QUIT"
 };
 
-
-
 void menu(void)
 {
-
-    //Image imOrigin = LoadImage("resorces/logo.png");
     float recWidth = 220.0f;
     float recHeight = 60.0f;
 
@@ -36,7 +30,6 @@ void menu(void)
         
     }
 
-    
     InitWindow(screenWidth, screenHeight, "HOME");
 
     Image image = LoadImage("resources/images/logo.png");
@@ -76,21 +69,22 @@ void menu(void)
 
         BeginDrawing();
 
-        ClearBackground(Color{0,4,35});
+        ClearBackground(Color{0,4,35,255});
+
         DrawTexture(texture, screenWidth/2 - texture.width/2+5, screenHeight/2 - texture.height/1.3,WHITE);
         
         for (int i = 0; i < NUMBER_OF_MAIN_BUTTONS; i++)
         {
-            DrawRectangleRec(toggleRecs[i], ((i == mouseHoverRec)) ? MAGENTA : VIOLET);
-            DrawRectangleLines((int)toggleRecs[i].x, (int)toggleRecs[i].y, (int)toggleRecs[i].width, (int)toggleRecs[i].height, PINK);
+            Rectangle lines = { (int)toggleRecs[i].x, (int)toggleRecs[i].y, (int)toggleRecs[i].width, (int)toggleRecs[i].height };
+            DrawRectangleRounded(toggleRecs[i], 0.01, 1,((i == mouseHoverRec)) ?  Color{134,53,197,255}:  Color{ 185,167,239,255 });
+            DrawRectangleRoundedLines(lines, 0.1f,1 ,5,((i == mouseHoverRec)) ?  Color{ 255,120,209,255 }: Color{ 94,84,123,255 });
             DrawText(processTextMainMenu[i], (float)(toggleRecs[i].x + toggleRecs[i].width / 2 - MeasureText(processTextMainMenu[i] , 10) / 2 ) -25, (int)(toggleRecs[i].y) + 16, 30, WHITE);
         }
-        
 
         EndDrawing();
-        
     }
     UnloadTexture(texture);
+
     CloseWindow();
 
 }

@@ -1,0 +1,5 @@
+# Ignore .vs folder
+.vs/
+#Ignore .sln file
+*walter.sln
+
