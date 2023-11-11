@@ -1,10 +1,19 @@
 #pragma once
+
 #include "raylib.h"
 #include "sizes.h"
+#include "playMenu.h"
 
 void coronavirus()
 {
-    InitWindow(screenWidth, screenHeight, "Coronavirus");
+    bool isColideBackPlay = false;
+    bool backPlayTextureReload = false;
+
+    float recWidth = 95.0f;
+    float recHeight = 52.0f;
+
+    
+    Rectangle recBack = { screenWidth - recWidth - 50, screenHeight - recHeight - 50,recWidth, recHeight };
 
     Camera camera = { 0 };
     camera.position = Vector3{ 6.0f, 7.0f, 6.0f };
@@ -32,6 +41,25 @@ void coronavirus()
 
     while (!WindowShouldClose())
     {
+        for (int i = 0; i < 1; i++)
+        {
+            if (CheckCollisionPointRec(GetMousePosition(), recBack))
+            {
+                isColideBackPlay = true;
+                if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT)) {
+                    backPlayTextureReload = true;
+                    
+                }
+                break;
+            }
+            else {
+                isColideBackPlay = false;
+            }
+        }
+        if (backPlayTextureReload) { 
+           playMenu();
+        }
+
         UpdateCamera(&camera, CAMERA_ORBITAL);
         
         BeginDrawing();
@@ -52,11 +80,14 @@ void coronavirus()
         DrawText(dangers, rect.x + 30, rect.y + 550, 35, WHITE);
         DrawText(infoDangers, rect.x + 30, rect.y + 600, 20, WHITE);
 
+        DrawRectangleRounded(recBack, 5, 1, ((isColideBackPlay)) ? Color{ 176,0,24,255 } : Color{ 203,65,84,255 });
+        DrawText(backPlayText, recBack.x + (recBack.width - MeasureText(backPlayText, 20)) / 2, recBack.y + (recBack.height - 20) / 2, 20, WHITE);
+
+
         EndDrawing();
     }
 
     UnloadModel(model);
     //UnloadTexture(texture);
-
     CloseWindow();
 }

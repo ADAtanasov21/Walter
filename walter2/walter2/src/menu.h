@@ -1,7 +1,7 @@
 #pragma once
 #include "raylib.h"
-#include "playMenu.h"
 #include "sizes.h"
+#include "playMenu.h"
 #define NUMBER_OF_MAIN_BUTTONS   2
 
 typedef enum {
@@ -14,7 +14,7 @@ static const char* processTextMainMenu[] = {
     "QUIT"
 };
 
-void menu(void)
+void menu()
 {
     float recWidth = 220.0f;
     float recHeight = 60.0f;
@@ -30,7 +30,7 @@ void menu(void)
         
     }
 
-    InitWindow(screenWidth, screenHeight, "HOME");
+    
 
     Image image = LoadImage("resources/images/logo.png");
     Texture2D texture = LoadTextureFromImage(image);
@@ -55,7 +55,9 @@ void menu(void)
                 }
                 break;
             }
-            else mouseHoverRec = -1;
+            else {
+                mouseHoverRec = -1;
+            }
         }
         if (textureReload) {
             switch (currentProcess)
@@ -85,6 +87,6 @@ void menu(void)
     }
     UnloadTexture(texture);
 
+    
     CloseWindow();
-
 }

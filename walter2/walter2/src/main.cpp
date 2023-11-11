@@ -1,7 +1,7 @@
 ﻿#include "raylib.h"
 #include "menu.h"
 
-int main(void)
+int main()
 {
     InitWindow(screenWidth, screenHeight, "HOME");
 
