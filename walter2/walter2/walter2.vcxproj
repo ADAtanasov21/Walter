@@ -26,7 +26,6 @@
     <ClInclude Include="src\menu.h" />
     <ClInclude Include="src\playMenu.h" />
     <ClInclude Include="src\sizes.h" />
-    <ClInclude Include="src\score.h" />
     <ClInclude Include="src\test.h" />
   </ItemGroup>
   <ItemGroup>

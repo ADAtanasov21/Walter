@@ -63,6 +63,8 @@ C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walte
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(90,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(94,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(94,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\test.h(74,151): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\test.h(74,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(80,27): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(160,99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(160,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
@@ -80,15 +82,15 @@ C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walte
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(167,121): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(169,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(169,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(76,80): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,73): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,73): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,95): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,95): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,121): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(80,121): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(81,131): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(83,145): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(74,80): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,73): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,73): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,95): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,95): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,121): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,121): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(79,131): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(81,145): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   walter2.vcxproj -> C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\Debug\main.exe

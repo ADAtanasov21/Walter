@@ -42,9 +42,6 @@
     <ClInclude Include="src\test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\score.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">

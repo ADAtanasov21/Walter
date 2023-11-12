@@ -30,8 +30,6 @@ void menu()
         
     }
 
-    
-
     Image image = LoadImage("resources/images/logo.png");
     Texture2D texture = LoadTextureFromImage(image);
     
