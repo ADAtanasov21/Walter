@@ -1,17 +1,24 @@
 #pragma once
+
 #include "raylib.h"
 #include "sizes.h"
+#include "playMenu.h"
+#include "testHeaders/testCoronavirus.h"
 
 void fluVirus()
 {
-    bool isColideBackPlay = false;
+    int isColideBackPlay = -1;
     bool backPlayTextureReload = false;
+    int currentProcesBackTest = 0;
 
     float recWidth = 95.0f;
     float recHeight = 52.0f;
 
+    Rectangle recBackAndTest[NUMBER_TEST_AND_BACK] = { 0 };
+    for (int i = 0; i < NUMBER_TEST_AND_BACK; i++) {
+        recBackAndTest[i] = Rectangle{ screenWidth - recWidth - 100 + 100 * i , screenHeight - recHeight - 50,recWidth, recHeight };
+    }
 
-    Rectangle recBack = { screenWidth - recWidth - 50, screenHeight - recHeight - 50,recWidth, recHeight };
 
     Camera camera = { 0 };
     camera.position = Vector3{ 6.0f, 7.0f, 6.0f };
@@ -21,7 +28,7 @@ void fluVirus()
     camera.projection = CAMERA_PERSPECTIVE;
 
     Model model = LoadModel("resources/models/fluFiles/flu.obj");
-    //Texture2D texture = LoadTexture("resources/fluFiles/ebolaFiles/flu.mtl");
+    //Texture2D texture = LoadTexture("resources/models/coronavirusFiles/coronavirus.mtl");
     //model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = texture;
 
     Vector3 position = { 0.0f, 0.0f, 0.0f };
@@ -39,23 +46,29 @@ void fluVirus()
 
     while (!WindowShouldClose())
     {
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < NUMBER_TEST_AND_BACK; i++)
         {
-            if (CheckCollisionPointRec(GetMousePosition(), recBack))
+            if (CheckCollisionPointRec(GetMousePosition(), recBackAndTest[i]))
             {
-                isColideBackPlay = true;
+                isColideBackPlay = i;
                 if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT)) {
+                    currentProcesBackTest = i;
                     backPlayTextureReload = true;
 
                 }
                 break;
             }
             else {
-                isColideBackPlay = false;
+                isColideBackPlay = -1;
             }
         }
         if (backPlayTextureReload) {
-            playMenu();
+            switch (currentProcesBackTest) {
+            case BACKPLAY: playMenu();
+                break;
+            case TESTPLAY:testCoronaVirus();
+                break;
+            }
         }
 
         UpdateCamera(&camera, CAMERA_ORBITAL);
@@ -65,8 +78,8 @@ void fluVirus()
         ClearBackground(Color{ 0,4,35,255 });
 
         BeginMode3D(camera);
-            DrawModel(model, position, 1.0f, WHITE);
-            DrawGrid(10, 1.0f);
+        DrawModel(model, position, 1.0f, WHITE);
+        DrawGrid(10, 1.0f);
         EndMode3D();
 
         DrawRectangleRec(rect, Color{ 27,222,210,255 });
@@ -78,8 +91,10 @@ void fluVirus()
         DrawText(dangers, rect.x + 30, rect.y + 550, 35, WHITE);
         DrawText(infoDangers, rect.x + 30, rect.y + 600, 20, WHITE);
 
-        DrawRectangleRounded(recBack, 5, 1, ((isColideBackPlay)) ? Color{ 176,0,24,255 } : Color{ 203,65,84,255 });
-        DrawText(backPlayText, recBack.x + (recBack.width - MeasureText(backPlayText, 20)) / 2, recBack.y + (recBack.height - 20) / 2, 20, WHITE);
+        for (int i = 0; i < NUMBER_TEST_AND_BACK; i++) {
+            DrawRectangleRounded(recBackAndTest[i], 5, 1, ((isColideBackPlay == i)) ? Color{ 176,0,24,255 } : Color{ 203,65,84,255 });
+            DrawText(backPlayText[i], recBackAndTest[i].x + (recBackAndTest[i].width - MeasureText(backPlayText[i], 20)) / 2, recBackAndTest[i].y + (recBackAndTest[i].height - 20) / 2, 20, WHITE);
+        }
 
         EndDrawing();
     }
