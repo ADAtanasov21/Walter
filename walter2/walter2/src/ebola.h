@@ -3,7 +3,7 @@
 #include "raylib.h"
 #include "sizes.h"
 #include "playMenu.h"
-#include "testHeaders/testCoronavirus.h"
+
 
 void ebolaVirus()
 {
@@ -28,8 +28,7 @@ void ebolaVirus()
     camera.projection = CAMERA_PERSPECTIVE;
 
     Model model = LoadModel("resources/models/ebolaFiles/worm.obj");
-    //Texture2D texture = LoadTexture("resources/models/coronavirusFiles/coronavirus.mtl");
-    //model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = texture;
+
 
     Vector3 position = { 0.0f, 0.0f, 0.0f };
 
@@ -46,6 +45,7 @@ void ebolaVirus()
 
     while (!WindowShouldClose())
     {
+
         for (int i = 0; i < NUMBER_TEST_AND_BACK; i++)
         {
             if (CheckCollisionPointRec(GetMousePosition(), recBackAndTest[i]))
@@ -66,8 +66,6 @@ void ebolaVirus()
             switch (currentProcesBackTest) {
             case BACKPLAY: playMenu();
                 break;
-            case TESTPLAY:testCoronaVirus();
-                break;
             }
         }
 
@@ -78,7 +76,7 @@ void ebolaVirus()
         ClearBackground(Color{ 0,4,35,255 });
 
         BeginMode3D(camera);
-        DrawModel(model, position, 1.0f, WHITE);
+        DrawModel(model, position, 1.0f, Color{255,127,114,255});
         DrawGrid(10, 1.0f);
         EndMode3D();
 

@@ -2,17 +2,15 @@
 
 #include "raylib.h"
 
-#define NUMBER_TEST_AND_BACK 2
+#define NUMBER_TEST_AND_BACK 1
 void playMenu();
 
 typedef enum {
-    BACKPLAY,
-    TESTPLAY
+    BACKPLAY
 }backPlayButton;
 
 static const char* backPlayText[] = {
-    "Back",
-    "Test"
+    "Back"
 };
 
 const int screenWidth = 1250;

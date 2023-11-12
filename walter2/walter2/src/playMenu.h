@@ -7,7 +7,7 @@
 #include "coronavirus.h"
 #include "flu.h"
 #include "ebola.h"
-
+#include "test.h"
 #include <vector>
 
 void menu();
@@ -24,6 +24,12 @@ typedef enum {
     BACK
 }backButton;
 
+typedef enum {
+    TEST
+}testButton;
+
+static const char* testText = "Test your knowledge!";
+
 static const char* processText[] = {
     "Coronavirus",
     "Esherichia coli",
@@ -37,12 +43,19 @@ void playMenu()
 {
     bool isColideBack = false;
     int backCurrentProcess = 0;
+    bool backTextureReload = false;
+
+    bool testIsColide = false;
+    int testCurrentProcess = 0;
+    bool testTextureReload = false;
 
     float recWidth = 95.0f;
     float recHeight = 52.0f;
 
-    bool backTextureReload = false;
+    
     Rectangle recBack = { screenWidth - recWidth -50, screenHeight - recHeight- 50,recWidth, recHeight };
+
+    Rectangle recTest = { screenWidth /2 - recWidth -20 , screenHeight /2 - recHeight /2 ,recWidth+150, recHeight };
 
 
     std::vector<Rectangle> rects;
@@ -116,6 +129,27 @@ void playMenu()
                 
             }
         }
+        for (int i = 0; i < 1; i++)
+        {
+            if (CheckCollisionPointRec(GetMousePosition(), recTest))
+            {
+                testIsColide = true;
+                if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT)) {
+                    testTextureReload = true;
+                    testCurrentProcess = BACK;
+                }
+                break;
+            }
+            else {
+                testIsColide = false;
+            }
+        }
+        if (testTextureReload) {
+            if (testCurrentProcess == TEST) {
+                test();
+
+            }
+        }
         
 
         BeginDrawing();
@@ -125,6 +159,9 @@ void playMenu()
         DrawRectangleRounded(recBack, 5, 1, ((isColideBack)) ? Color{ 176,0,24,255 }: Color{ 203,65,84,255 });
         DrawText(backText, recBack.x + (recBack.width - MeasureText(backText, 20)) / 2, recBack.y + (recBack.height - 20) / 2, 20, WHITE);
         
+        DrawRectangleRounded(recTest, 5, 1, ((testIsColide)) ? DARKGREEN : GREEN);
+        DrawText(testText, recTest.x + (recTest.width - MeasureText(backText, 20)) / 14, recTest.y + (recTest.height - 20) / 2, 20, WHITE);
+
         for (int i = 0; i < rects.size(); i++) {
             Rectangle lines = { (int)rects[i].x, (int)rects[i].y, (int)rects[i].width, (int)rects[i].height };
             DrawRectangleRounded(rects[i], 0.01, 1, ((i == isColide)) ? Color{ 27,222,210,255 } : Color{ 65,79,203,255 });

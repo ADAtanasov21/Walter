@@ -3,7 +3,6 @@
 #include "raylib.h"
 #include "sizes.h"
 #include "playMenu.h"
-#include "testHeaders/testCoronavirus.h"
 
 void eColi()
 {
@@ -28,8 +27,7 @@ void eColi()
     camera.projection = CAMERA_PERSPECTIVE;
 
     Model model = LoadModel("resources/models/eColiFiles/eColi.obj");
-    //Texture2D texture = LoadTexture("resources/models/coronavirusFiles/coronavirus.mtl");
-    //model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = texture;
+
 
     Vector3 position = { 0.0f, 0.0f, 0.0f };
 
@@ -46,6 +44,7 @@ void eColi()
 
     while (!WindowShouldClose())
     {
+
         for (int i = 0; i < NUMBER_TEST_AND_BACK; i++)
         {
             if (CheckCollisionPointRec(GetMousePosition(), recBackAndTest[i]))
@@ -66,8 +65,6 @@ void eColi()
             switch (currentProcesBackTest) {
             case BACKPLAY: playMenu();
                 break;
-            case TESTPLAY:testCoronaVirus();
-                break;
             }
         }
 
@@ -78,7 +75,7 @@ void eColi()
         ClearBackground(Color{ 0,4,35,255 });
 
         BeginMode3D(camera);
-        DrawModel(model, position, 1.0f, WHITE);
+        DrawModel(model, position, 1.0f, Color{107,216,185,255});
         DrawGrid(10, 1.0f);
         EndMode3D();
 
