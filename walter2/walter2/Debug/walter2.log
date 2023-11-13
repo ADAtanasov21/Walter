@@ -1,96 +1,96 @@
 ﻿  main.cpp
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(83,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(83,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(84,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(84,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(85,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(85,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(86,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(86,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(87,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(87,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(88,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(88,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(89,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(89,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(93,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\eColi.h(93,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(84,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(84,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(85,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(85,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(86,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(86,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(87,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(87,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(88,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(88,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(89,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(89,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(90,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(90,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(94,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\coronavirus.h(94,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(84,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(84,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(85,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(85,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(86,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(86,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(87,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(87,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(88,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(88,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(89,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(89,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(90,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(90,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(94,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\flu.h(94,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(84,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(84,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(85,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(85,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(86,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(86,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(87,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(87,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(88,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(88,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(89,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(89,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(90,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(90,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(94,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\ebola.h(94,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\test.h(74,151): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\test.h(74,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(80,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(160,99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(160,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(163,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(163,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(165,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,46): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,63): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,63): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,80): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,80): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,101): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(166,101): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(167,121): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(169,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\playMenu.h(169,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(74,80): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,73): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,73): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,95): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,95): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,121): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(78,121): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(79,131): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\walter2\src\menu.h(81,145): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  walter2.vcxproj -> C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\walter2_ivan\Walter\walter2\Debug\main.exe
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(83,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(83,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(84,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(84,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(85,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(85,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(86,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(86,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(87,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(87,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(88,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(88,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(89,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(89,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(93,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\eColi.h(93,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(84,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(84,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(85,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(85,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(86,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(86,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(87,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(87,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(88,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(88,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(89,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(89,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(90,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(90,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(94,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\coronavirus.h(94,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(84,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(84,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(85,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(85,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(86,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(86,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(87,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(87,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(88,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(88,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(89,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(89,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(90,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(90,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(94,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\flu.h(94,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(84,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(84,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(85,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(85,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(86,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(86,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(87,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(87,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(88,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(88,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(89,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(89,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(90,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(90,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(94,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\ebola.h(94,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\test.h(76,151): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\test.h(76,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(90,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(175,99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(175,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(178,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(178,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(180,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,46): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,63): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,63): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,80): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,80): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,101): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(181,101): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(182,121): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(184,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\playMenu.h(184,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(74,80): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,73): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,73): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,95): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,95): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,121): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(78,121): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(79,131): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\walter2\src\menu.h(81,145): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  walter2.vcxproj -> C:\Users\user\OneDrive - ПГКПИ - Бургас\Работен плот\ne\Walter\walter2\Debug\main.exe

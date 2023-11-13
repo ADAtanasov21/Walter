@@ -55,7 +55,7 @@ void playMenu()
     
     Rectangle recBack = { screenWidth - recWidth -50, screenHeight - recHeight- 50,recWidth, recHeight };
 
-    Rectangle recTest = { screenWidth /2 - recWidth -20 , screenHeight /2 - recHeight /2 ,recWidth+150, recHeight };
+    Rectangle recTest = { screenWidth /2 - recWidth -35 , screenHeight /2 - recHeight /2 ,recWidth+150, recHeight };
 
 
     std::vector<Rectangle> rects;
@@ -73,8 +73,18 @@ void playMenu()
     bool textureReload = false;
     int currentProcess = 0;
 
-    SetTargetFPS(60);
+    Image imageCorona = LoadImage("resources/images/coronaVi.png");
+    Texture2D textureCorona = LoadTextureFromImage(imageCorona);
+
+    Image imageFlu = LoadImage("resources/images/flu.png");
+    Texture2D textureFlu = LoadTextureFromImage(imageFlu);
+
+    Image imageEColi = LoadImage("resources/images/eColi.png");
+    Texture2D textureEColi = LoadTextureFromImage(imageEColi);
     
+    Image imageEbola = LoadImage("resources/images/ebola.png");
+    Texture2D textureEbola = LoadTextureFromImage(imageEbola);
+
     while (!WindowShouldClose())
     {
         for (int i = 0; i < rects.size(); i++)
@@ -156,6 +166,11 @@ void playMenu()
 
         ClearBackground(Color{ 0,4,35 });
 
+        DrawTexture(textureCorona, 200, 40, WHITE);
+        DrawTexture(textureEColi, screenWidth - textureFlu.width * 2 - 15, 90, WHITE);
+        DrawTexture(textureFlu, screenWidth - textureFlu.width * 2 - 15, screenHeight - textureFlu.height * 2 - 70, WHITE);
+        DrawTexture(textureEbola, screenWidth - textureFlu.width * 2 - 15, screenHeight - textureFlu.height * 2 - 70, WHITE);
+        
         DrawRectangleRounded(recBack, 5, 1, ((isColideBack)) ? Color{ 176,0,24,255 }: Color{ 203,65,84,255 });
         DrawText(backText, recBack.x + (recBack.width - MeasureText(backText, 20)) / 2, recBack.y + (recBack.height - 20) / 2, 20, WHITE);
         
@@ -172,6 +187,11 @@ void playMenu()
         EndDrawing();
     }
 
+    UnloadTexture(textureCorona);
+    UnloadTexture(textureFlu);
+    UnloadTexture(textureEColi);
+    UnloadTexture(textureEbola);
+    
     CloseWindow();
 }
 

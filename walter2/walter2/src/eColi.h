@@ -31,13 +31,13 @@ void eColi()
 
     Vector3 position = { 0.0f, 0.0f, 0.0f };
 
-    char name[] = "Ebola virus";
+    char name[] = "Esherichia Coli";
     char symptomps[] = "Symptoms:";
-    char infoSymptomps[] = "Fever; Aches and pains, such as severe\nheadacheand muscleand joint pain;\nWeaknessand fatigue; Sore throat.";
-    char cures[] = "Cures:";
-    char infoCures[] = "There's no cure for Ebola, though\nresearchers are working on it. There\nare two drug treatments which have\nbeen approved for treating Ebola.\nInmazeb is a mixture of three\nmonoclonal antibodies (atoltivimab,\n maftivimab, and odesivimab-ebgn).";
+    char infoSymptomps[] = "Diarrhea; Stomachache; Dehydration;\nMuscle or body aches;";
+    char cures[] = "Treatments:";
+    char infoCures[] = "If it is a mild infection,\nrest and a sufficient amount of\nluids are recommended.\nIn cases of severe infections,\nantibiotics should be taken.";
     char dangers[] = "Dangers:";
-    char infoDangers[] = "Without prompt and appropriate\ntreatment as many as 90% of people\nwho become sick with Ebola\nvirus disease die.";
+    char infoDangers[] = "Toxinogenic strains;\nDehydration; Resistance\nto antibiotics;";
 
     Rectangle rect = { screenWidth - screenWidth / 4 - 150,0,screenWidth / 4 + 150, screenHeight };
     SetTargetFPS(60);

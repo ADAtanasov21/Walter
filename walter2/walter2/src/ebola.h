@@ -35,7 +35,7 @@ void ebolaVirus()
     char name[] = "Ebola virus";
     char symptomps[] = "Symptoms:";
     char infoSymptomps[] = "Fever; Aches and pains, such as severe\nheadacheand muscleand joint pain;\nWeaknessand fatigue; Sore throat.";
-    char cures[] = "Cures:";
+    char cures[] = "Treatment:";
     char infoCures[] = "There's no cure for Ebola, though\nresearchers are working on it. There\nare two drug treatments which have\nbeen approved for treating Ebola.\nInmazeb is a mixture of three\nmonoclonal antibodies (atoltivimab,\n maftivimab, and odesivimab-ebgn).";
     char dangers[] = "Dangers:";
     char infoDangers[] = "Without prompt and appropriate\ntreatment as many as 90% of people\nwho become sick with Ebola\nvirus disease die.";

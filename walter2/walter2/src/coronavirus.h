@@ -32,13 +32,13 @@ void coronavirus()
 
     Vector3 position = { 0.0f, 0.0f, 0.0f };
 
-    char name[] = "Ebola virus";
+    char name[] = "Coronavirus";
     char symptomps[] = "Symptoms:";
-    char infoSymptomps[] = "Fever; Aches and pains, such as severe\nheadacheand muscleand joint pain;\nWeaknessand fatigue; Sore throat.";
-    char cures[] = "Cures:";
-    char infoCures[] = "There's no cure for Ebola, though\nresearchers are working on it. There\nare two drug treatments which have\nbeen approved for treating Ebola.\nInmazeb is a mixture of three\nmonoclonal antibodies (atoltivimab,\n maftivimab, and odesivimab-ebgn).";
+    char infoSymptomps[] = "Fever or chills; Cough; Fatigue;\nMuscle or body aches; Headache;";
+    char cures[] = "Treatment:";
+    char infoCures[] = "Take antibiotics;\nStay izolied\nBathing with warm water;";
     char dangers[] = "Dangers:";
-    char infoDangers[] = "Without prompt and appropriate\ntreatment as many as 90% of people\nwho become sick with Ebola\nvirus disease die.";
+    char infoDangers[] = "You may have pneumonia;\nTo lose taste and smell;\nIt can give you heart problems.";
 
     Rectangle rect = { screenWidth - screenWidth / 4 - 150,0,screenWidth / 4 + 150, screenHeight };
     SetTargetFPS(60);

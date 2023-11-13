@@ -3,7 +3,7 @@
 #include "raylib.h"
 
 
-#define NUMBER_QUESTIONS  3
+#define NUMBER_QUESTIONS  5
 
 struct Question {
     const char* question;
@@ -12,9 +12,11 @@ struct Question {
 };
 
 Question triviaQuestions[NUMBER_QUESTIONS] = {
-    {"Corona?", {"Beer", "Virus", "on king's head", "Rome"}, 2},
-    {"ebola", {"yes", "no", "maybe", "nahh"}, 0},
-    {"Trembolon", {"da", "ne", "mh", "haide"}, 1}
+    {"Continue the word Corona...?", {"Beer", "Virus", "on king's head", "on princes's head"}, 1},
+    {"What to do when you are sick of flu?", {"Rest", "There's no cure for Flu.", "Take cold showers", "Sleep on opend window."}, 0},
+    {"Which virus does not have a tretment?", {"Coronavirus", "Flu", "Esherichia Coli", "Ebola"}, 3},
+    {"Is high temperature common symptom for Ebola?", {"Yes", "No", "No, it's common for flu.", "There is no correct question."}, 2},
+    {"For which virus is cough a common symptom?", {"Ebola", "Coronavirus", "Esherichia Coli", "Norovirus"}, 1}
 };
 void CheckAnswer(int selectedOption, int& currentQuestion, int& score)
 {
@@ -25,7 +27,7 @@ void CheckAnswer(int selectedOption, int& currentQuestion, int& score)
 
     currentQuestion++;
 
-    if (currentQuestion > NUMBER_QUESTIONS)
+    if (currentQuestion >= NUMBER_QUESTIONS)
     {
         int isColideBackPlay = -1;
         bool backPlayTextureReload = false;
@@ -36,7 +38,7 @@ void CheckAnswer(int selectedOption, int& currentQuestion, int& score)
 
         Rectangle recBackAndTest[NUMBER_TEST_AND_BACK] = { 0 };
         for (int i = 0; i < NUMBER_TEST_AND_BACK; i++) {
-            recBackAndTest[i] = Rectangle{ screenWidth - recWidth - 100 + 100 * i , screenHeight - recHeight - 50,recWidth, recHeight };
+            recBackAndTest[i] = Rectangle{ screenWidth/2 - recWidth +50, screenHeight/2 - recHeight+50 ,recWidth, recHeight };
         }
 
         while (!WindowShouldClose())
@@ -60,14 +62,14 @@ void CheckAnswer(int selectedOption, int& currentQuestion, int& score)
             if (backPlayTextureReload) {
                 switch (currentProcesBackTest) {
                 case BACKPLAY: playMenu();
-                    break;
+                    
                 }
             }
             BeginDrawing();
 
             ClearBackground(Color{ 0,4,35,255 });
 
-            DrawText(TextFormat("Your score is: %d", score), screenWidth/2-250, screenHeight /2, 60, WHITE);
+            DrawText(TextFormat("Your score is: %d", score), screenWidth/2-220, screenHeight /2-100, 60, WHITE);
 
             for (int i = 0; i < NUMBER_TEST_AND_BACK; i++) {
                 DrawRectangleRounded(recBackAndTest[i], 5, 1, ((isColideBackPlay == i)) ? Color{ 176,0,24,255 } : Color{ 203,65,84,255 });
