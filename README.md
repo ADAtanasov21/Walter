@@ -37,7 +37,7 @@ https://github.com/ADAtanasov21/Walter.git
 <p><img src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Git" width="30" height="20"> Git - Source Control</big></p>
 <p><img src="https://cdn.worldvectorlogo.com/logos/word-1.svg" alt="Word" width="30" height="20"> MS Word - Documentation</p>
 <p><img src="https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg" alt="PowerPoint" width="30" height="20"> MS PowerPoint - Presentation</p>
-<p><img src="https://cdn.worldvectorlogo.com/logos/excel-4.svg" alt="Excel" width="30" height="20"> MS Excel - QA and Test plan</p>
+<p><img src="https://cdn.worldvectorlogo.com/logos/excel-4.svg" alt="Excel" width="30" height="20"> MS Excel - QA</p>
 
 #  🏆 The Team
 <p><a href="https://github.com/ADAtanasov21">Atanas Atanasov</a> - Scrum Trainer</p>
