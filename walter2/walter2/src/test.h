@@ -126,14 +126,14 @@ void test()
         ClearBackground(Color{ 0,4,35,255 });
 
         //Display the current trivia question and answers options
-        DrawText(triviaQuestions[currentQuestion].question, 100, 150, 40, RED);
+        DrawText(triviaQuestions[currentQuestion].question, 100, 150, 40, WHITE);
         for (int i = 0; i < 4; i++)
         {
-            DrawText(TextFormat("%d. %s", i + 1, triviaQuestions[currentQuestion].answers[i]), 100, 80 + i * 40 +130, 30, GREEN);
+            DrawText(TextFormat("%d. %s", i + 1, triviaQuestions[currentQuestion].answers[i]), 100, 80 + i * 40 +130, 30, WHITE);
         }
 
         //Display instructions
-        DrawText("Enter a number between 1 to 4!", screenWidth / 2 - 400, 20, 50, YELLOW);
+        DrawText("Enter a number between 1 to 4!", screenWidth / 2 - 400, 20, 50, WHITE);
 
         EndDrawing();
     }
